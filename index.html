@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+<script>
+	$(function(){
+		$("#head").load("head.html");
+		$("#foot").load("foot.html");
+		$("#nav").load("nav.html");
+	});
+</script>
+
+	<div id="head"></div>
+
+	<body>
+
+		<nav id="nav"></nav>
+		
+		<div class="wrapper">
+				<div class="search_box">
+					<input type="text" placeholder="Search for Parts...">
+					<img src="icons/search.png" alt="search">
+				</div>
+			</div>
+		<hr>
+		
+		<div class="body">
+			<h2>Browse PC Parts Using The "Browse Products" Dropdown</h2>
+			<h2>OR</h2>
+			<h2>By Using The Search Bar</h2>
+			<p>(Currently non-functional)</p>
+		</div>
+		
+	</body>
+	
+	<div id="foot"></div>
+
+</html>
